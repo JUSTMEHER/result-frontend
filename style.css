@@ -208,7 +208,9 @@ h1{
     .card2{
         border-radius:0;
         height:400px;
-        width:450px
+        width:450px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     .right{
         border-radius:0;
