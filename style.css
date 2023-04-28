@@ -1,0 +1,299 @@
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    width:650px;
+    height:450px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top:180px;
+    
+}
+.card2{
+    width:290px;
+    height:450px;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) ) ;
+    position: absolute;
+    border-radius: 30px;
+    z-index: 1;
+}
+.result{
+   color:hsl(241, 100%, 89%); 
+   font-weight: 800;
+   padding-top: 10px;
+}
+h1{
+    color:white;
+    position: absolute;
+    bottom:130px;
+    left:105px
+}
+.circle{
+    width:180px;
+    height:170px;
+    background-image:linear-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1)) ;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.scored{
+    color:hsl(241, 100%, 89%);
+    position: absolute;
+    margin-left:40px;
+    bottom:45px; 
+}
+.seventy6{
+    color:white;
+    font-size: 60px;
+    position: absolute;
+    top:110px;
+    right:110px
+}
+.hundred{
+    color:hsl(241, 100%, 89%);
+    position: absolute;
+    top:185px;
+    right:123px
+}
+.right{
+    width:380px;
+    height:450px;
+    background-color:white;
+    position: absolute;
+    left:260px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 0;
+
+}
+.summary{
+    color:hsl(224, 30%, 27%);
+    position: absolute;
+    left:60px;
+    top:10px;
+}
+.reaction{
+    width:290px;
+    height:60px;
+    background-color: hsla(0, 100%, 92%, 0.377);
+    border-radius: 10px;
+    position: absolute;
+    left:60px;
+    top:80px;
+    font-weight: 700;
+}
+.memory{
+    width:290px;
+    height:60px;
+    background-color: hsla(0, 100%, 92%, 0.377);
+    border-radius: 10px;
+    position: absolute;
+    left:60px;
+    top:155px
+}
+.verbal{
+    width:290px;
+    height:60px;
+    background-color: hsla(166, 100%, 37%, 0.377);
+    border-radius: 10px;
+    position: absolute;
+    left:60px;
+    top:230px
+}
+.visual{
+    width:290px;
+    height:60px;
+    background-color: hsla(193, 100%, 37%, 0.377);
+    border-radius: 10px;
+    position: absolute;
+    left:60px;
+    top:305px
+}
+.r{
+    position: absolute;
+    left:20px;
+    top:18px;
+
+}
+.m{
+    position: absolute;
+    left:20px;
+    top:18px;
+}
+.v{
+    position: absolute;
+    left:20px;
+    top:18px;
+}
+.vi{
+    position: absolute;
+    left:20px;
+    top:18px;
+}
+.r1{
+    color:hsl(0, 100%, 67%);
+    position: absolute;
+    top:18px;
+    left:60px
+}
+.mark{
+
+    position:absolute;
+    top:18px;
+    left:210px;
+    font-weight: 700;
+    color:hsl(242, 26%, 77%);
+    
+}
+.color{
+    color:hsl(224, 30%, 27%);
+}
+.m1{
+    color:hsl(39, 100%, 56%);
+    position: absolute;
+    left:60px;
+    top:18px;
+}
+.v1{
+    color:hsl(166, 100%, 37%);
+    position: absolute;
+    left:60px;
+    top:18px;
+}
+.vi1{
+    color:hsl(234, 85%, 45%);
+    position: absolute;
+    left:60px;
+    top:18px;
+}
+.continue{
+    width:300px;
+    height:60px;
+    background-color:hsl(224, 30%, 27%);
+    position: absolute;
+    left:55px;
+    bottom:15px;
+    border-radius: 40px;
+    color: white;
+    
+}
+.cb{
+   position: absolute;
+   top:18px;
+   left:115px;
+   font-weight: 700;
+}
+.continue:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+@media(max-width:660px){
+    .card{
+        height:850px;
+        width:450px;
+        border-radius:0;
+        border-bottom-left-radius:30px ;
+        border-bottom-right-radius: 30px;
+    }
+    .card2{
+        border-radius:0;
+        height:400px;
+        width:450px
+    }
+    .right{
+        border-radius:0;
+        position: absolute;
+        left:0px;
+        top:400px;
+    }
+    .circle{
+        margin-left: 130px;
+    }
+    .scored{
+        position: absolute;
+        margin-left:120px;
+        bottom:5px; 
+    }
+    .seventy6{
+        color:white;
+        font-size: 60px;
+        position: absolute;
+        top:110px;
+        right:195px
+    }
+    .hundred{
+        color:hsl(241, 100%, 89%);
+        position: absolute;
+        top:185px;
+        right:205px
+    }
+    h1{
+        position: absolute;
+        bottom:80px;
+        left:180px;
+    }
+    .summary{
+        color:hsl(224, 30%, 27%);
+        position: absolute;
+        left:80px;
+        top:10px;
+    }
+    .reaction{
+        width:290px;
+        height:60px;
+        background-color: hsla(0, 100%, 92%, 0.377);
+        border-radius: 10px;
+        position: absolute;
+        left:80px;
+        top:80px;
+        font-weight: 700;
+    }
+    .memory{
+        width:290px;
+        height:60px;
+        background-color: hsla(0, 100%, 92%, 0.377);
+        border-radius: 10px;
+        position: absolute;
+        left:80px;
+        top:155px
+    }
+    .verbal{
+        width:290px;
+        height:60px;
+        background-color: hsla(166, 100%, 37%, 0.377);
+        border-radius: 10px;
+        position: absolute;
+        left:80px;
+        top:230px
+    }
+    .visual{
+        width:290px;
+        height:60px;
+        background-color: hsla(193, 100%, 37%, 0.377);
+        border-radius: 10px;
+        position: absolute;
+        left:80px;
+        top:305px
+    }
+    .continue{
+        width:300px;
+        height:60px;
+        background-color:hsl(224, 30%, 27%);
+        position: absolute;
+        left:75px;
+        bottom:15px;
+        border-radius: 40px;
+        color: white;
+        
+    }
+    body{
+        margin-top: 10px;
+    }
+}
